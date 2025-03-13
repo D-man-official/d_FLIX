@@ -41,9 +41,9 @@ function showDownloadButtons(query) {
     document.getElementById('download-buttons').classList.remove('hidden');
     const downloadSites = [
         { name: 'Vegamovies', url: `https://vegamovies.rs/?s=${encodeURIComponent(query)}` },
-        { name: 'Vegamovies Hindi', url: `https://rogmovies.cfd/?s=${encodeURIComponent(query)}` },
+        { name: 'Vegamovies Hindi', url: `https://rogmovies.icu/?s=${encodeURIComponent(query)}` },
         { name: 'Bollyflix', url: `https://bollyflix.phd/search/${encodeURIComponent(query)}` },
-        { name: '9xflix', url: `https://9xflix.wine/?s=${encodeURIComponent(query)}` },
+        { name: '9xflix', url: `https://9xflix.wine/m/?s=${encodeURIComponent(query)}` },
         { name: 'Yupmovies', url: `https://yupmovie.shop/?s=${encodeURIComponent(query)}` }
     ];
 
