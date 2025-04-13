@@ -43,7 +43,9 @@ function showDownloadButtons(query) {
         { name: 'Vegamovies', url: `https://vegamovies.bot/?s=${encodeURIComponent(query)}` },
         { name: 'Vegamovies Hindi', url: `https://rogmovies.lol/?s=${encodeURIComponent(query)}` },
         { name: 'Bollyflix', url: `https://bollyflix.kiwi/search/${encodeURIComponent(query)}` },
-        { name: '9xflix', url: `https://alphatron.tv/search/${encodeURIComponent(query)}` },
+        { name: 'Alphatron', url: `https://alphatron.tv/search/${query.trim().replace(/\s+/g, '-')}` },
+
+        // { name: '9xflix', url: `https://alphatron.tv/search/${encodeURIComponent(query)}` },
         { name: 'Yupmovies', url: `https://yupmovie.shop/?s=${encodeURIComponent(query)}` }
     ];
 
