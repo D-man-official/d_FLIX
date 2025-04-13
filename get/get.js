@@ -40,10 +40,10 @@ document.getElementById('watch-online-form').addEventListener('submit', function
 function showDownloadButtons(query) {
     document.getElementById('download-buttons').classList.remove('hidden');
     const downloadSites = [
-        { name: 'Vegamovies', url: `https://vegamovies.rs/?s=${encodeURIComponent(query)}` },
-        { name: 'Vegamovies Hindi', url: `https://rogmovies.icu/?s=${encodeURIComponent(query)}` },
-        { name: 'Bollyflix', url: `https://bollyflix.phd/search/${encodeURIComponent(query)}` },
-        { name: '9xflix', url: `https://9xflix.wine/m/?s=${encodeURIComponent(query)}` },
+        { name: 'Vegamovies', url: `https://vegamovies.bot/?s=${encodeURIComponent(query)}` },
+        { name: 'Vegamovies Hindi', url: `https://rogmovies.lol/?s=${encodeURIComponent(query)}` },
+        { name: 'Bollyflix', url: `https://bollyflix.kiwi/search/${encodeURIComponent(query)}` },
+        { name: '9xflix', url: `https://alphatron.tv/search/${encodeURIComponent(query)}` },
         { name: 'Yupmovies', url: `https://yupmovie.shop/?s=${encodeURIComponent(query)}` }
     ];
 
@@ -57,7 +57,7 @@ function showDownloadButtons(query) {
 function showWatchOnlineButtons(query) {
     document.getElementById('watch-online-buttons').classList.remove('hidden');
     const watchOnlineSites = [
-        { name: 'Multimovies', url: `https://multimovies.world/?s=${encodeURIComponent(query)}` }
+        { name: 'Multimovies', url: `https://multimovies.guru/?s=${encodeURIComponent(query)}` }
     ];
     document.getElementById('multimovies-btn').onclick = () => window.open(watchOnlineSites[0].url, '_blank');
 }
