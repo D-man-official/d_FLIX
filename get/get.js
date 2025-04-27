@@ -59,7 +59,7 @@ function showDownloadButtons(query) {
 function showWatchOnlineButtons(query) {
     document.getElementById('watch-online-buttons').classList.remove('hidden');
     const watchOnlineSites = [
-        { name: 'Multimovies', url: `https://multimovies.guru/?s=${encodeURIComponent(query)}` }
+        { name: 'Multimovies', url: `https://multimovies.digital/?s=${encodeURIComponent(query)}` }
     ];
     document.getElementById('multimovies-btn').onclick = () => window.open(watchOnlineSites[0].url, '_blank');
 }
