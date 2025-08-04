@@ -41,7 +41,7 @@ function showDownloadButtons(query) {
     document.getElementById('download-buttons').classList.remove('hidden');
     const downloadSites = [
         { name: 'Vegamovies', url: `https://vegamovies.moi/?s=${encodeURIComponent(query)}` },
-        { name: 'Vegamovies Hindi', url: `https://rogmovies.ink/?s=${encodeURIComponent(query)}` },
+        { name: 'Vegamovies Hindi', url: `https://rogmovies.life/?s=${encodeURIComponent(query)}` },
         { name: 'Bollyflix', url: `https://bollyflix.army/search/${encodeURIComponent(query)}` },
         { name: 'Alphatron', url: `https://fmoviesz.ms/search/${query.trim().replace(/\s+/g, '-')}` },
 
