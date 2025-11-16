@@ -40,10 +40,10 @@ document.getElementById('watch-online-form').addEventListener('submit', function
 function showDownloadButtons(query) {
     document.getElementById('download-buttons').classList.remove('hidden');
     const downloadSites = [
-        { name: 'Vegamovies', url: `https://vegamovies.menu/?s=${encodeURIComponent(query)}` },
-        { name: 'Vegamovies Hindi', url: `https://rogmovies.store/?s=${encodeURIComponent(query)}` },
-        { name: 'Bollyflix', url: `https://bollyflix.esq/search/${encodeURIComponent(query)}` },
-        { name: 'Alphatron', url: `https://fmoviesz.ms/search/${query.trim().replace(/\s+/g, '-')}` },
+        { name: 'Vegamovies', url: `https://vegamovies.gripe/?s=${encodeURIComponent(query)}` },
+        { name: 'Vegamovies Hindi', url: `https://rogmovies.online/?s=${encodeURIComponent(query)}` },
+        { name: 'Bollyflix', url: `https://bollyflix.vet/search/${encodeURIComponent(query)}` },
+        { name: 'Alphatron', url: `https://wvv-fmovies.com//search/${query.trim().replace(/\s+/g, '-')}` },
 
         // { name: '9xflix', url: `https://alphatron.tv/search/${encodeURIComponent(query)}` },
         { name: 'Yupmovies', url: `https://yupmovie.shop/?s=${encodeURIComponent(query)}` }
